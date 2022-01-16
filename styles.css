@@ -1,3 +1,56 @@
 body {
   background-color: pink;
 }
+
+#timeBanner {
+  position: fixed;
+  background-color: white;
+  border-style: solid;
+  margin: auto;
+  width: 50%;
+  left: 20%;
+  right: 75%;
+}
+
+#duration {
+  font-size: 2em;
+}
+
+#lapCount {
+  position: sticky;
+  background-color: white;
+  border-style: solid;
+
+  width: 10%;
+  left: 0%;
+  right: 85%;
+}
+
+#buttons {
+  position: relative;
+  top: 20px;
+}
+#start {
+  position: sticky;
+  left: 20%;
+  color: orange;
+}
+
+#stop {
+  position: sticky;
+  left: 40%;
+  color: purple;
+}
+
+#reset {
+  position: sticky;
+  left: 20%;
+
+  color: green;
+}
+
+#lap {
+  position: sticky;
+  left: 40%;
+  color: red;
+}
